@@ -2,6 +2,7 @@ class AppAssets {
   /// svg
   static const String logo = "assets/images/logo.svg";
   static const String logoUp = "assets/images/logo_up.svg";
+  static const String arrowDown = "assets/images/arrow_down.svg";
   /// png
   static const String appBackgroundImage = "assets/images/background-2.png";
   static const String background2 = "assets/images/background2.png";
