@@ -21,7 +21,7 @@ class AppStyles {
         color: AppColors.secondary
     );
    static final TextStyle  semiBoldWhit20 = GoogleFonts.poppins(
-        fontSize: 40,
+        fontSize: 20,
         color: AppColors.white
     );
    static final TextStyle  semiboldPrimary15 = GoogleFonts.poppins(
@@ -65,8 +65,12 @@ class AppStyles {
         color: AppColors.black
     );
    static final TextStyle  semiboldBlack20 = GoogleFonts.poppins(
+       fontSize: 20,
+       color: AppColors.black
+   );
+   static final TextStyle  semiboldPrimary20 = GoogleFonts.poppins(
         fontSize: 20,
-        color: AppColors.black
+        color: AppColors.primary
     );
     /// Regular
    static final TextStyle boldSecondary14 = GoogleFonts.poppins(
