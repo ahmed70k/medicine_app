@@ -180,4 +180,22 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get send_code => 'ENVIAR CÓDIGO';
+
+  @override
+  String get english => 'Inglés';
+
+  @override
+  String get arabic => 'Árabe';
+
+  @override
+  String get french => 'Francés';
+
+  @override
+  String get german => 'Alemán';
+
+  @override
+  String get spanish => 'Español';
+
+  @override
+  String get italian => 'Italiano';
 }

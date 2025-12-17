@@ -52,5 +52,11 @@
   "sharing": "Teilen",
   "weekly_progress": "Wöchentlicher Fortschritt",
   "confirm_connection_message": "Ahmed muss die Verbindung bestätigen, indem er den Einladungscode in Medikamenten-Erinnerung eingibt!",
-  "send_code": "CODE SENDEN"
+  "send_code": "CODE SENDEN",
+  "english": "Englisch",
+    "arabic": "Arabisch",
+    "french": "Französisch",
+    "german": "Deutsch",
+    "spanish": "Spanisch",
+    "italian": "Italienisch"
 }

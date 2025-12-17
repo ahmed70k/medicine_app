@@ -173,4 +173,22 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get send_code => 'إرسال الرمز';
+
+  @override
+  String get english => 'الإنجليزية';
+
+  @override
+  String get arabic => 'العربية';
+
+  @override
+  String get french => 'الفرنسية';
+
+  @override
+  String get german => 'الألمانية';
+
+  @override
+  String get spanish => 'الإسبانية';
+
+  @override
+  String get italian => 'الإيطالية';
 }

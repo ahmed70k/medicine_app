@@ -52,5 +52,12 @@
   "sharing": "Compartir",
   "weekly_progress": "Progreso semanal",
   "confirm_connection_message": "¡Ahmed debe confirmar la conexión introduciendo el código de invitación en Recordatorio de Medicamentos!",
-  "send_code": "ENVIAR CÓDIGO"
+  "send_code": "ENVIAR CÓDIGO",
+  "language": "Idioma",
+    "english": "Inglés",
+    "arabic": "Árabe",
+    "french": "Francés",
+    "german": "Alemán",
+    "spanish": "Español",
+    "italian": "Italiano"
 }

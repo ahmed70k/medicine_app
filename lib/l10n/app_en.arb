@@ -51,6 +51,12 @@
 "sharing":"Sharing",
 "weekly_progress":"Weekly progress",
 "confirm_connection_message":"Ahmed has to confirm the connection by entering the invitation code in MediCue!",
-"send_code":"SEND CODE"
+"send_code":"SEND CODE",
+"english": "English",
+  "arabic": "Arabic",
+  "french": "French",
+  "german": "German",
+  "spanish": "Spanish",
+  "italian": "Italian"
 
 }
