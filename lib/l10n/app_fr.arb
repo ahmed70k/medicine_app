@@ -52,5 +52,12 @@
   "sharing": "Partage",
   "weekly_progress": "Progression hebdomadaire",
   "confirm_connection_message": "Ahmed doit confirmer la connexion en saisissant le code d’invitation dans Rappel Médicament !",
-  "send_code": "ENVOYER LE CODE"
+  "send_code": "ENVOYER LE CODE",
+    "language": "Langue",
+    "english": "Anglais",
+    "arabic": "Arabe",
+    "french": "Français",
+    "german": "Allemand",
+    "spanish": "Espagnol",
+    "italian": "Italien"
 }

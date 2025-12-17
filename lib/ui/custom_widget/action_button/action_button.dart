@@ -17,6 +17,7 @@ class ActionButton extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
+        width: double.infinity,
         height: height * 0.08,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(borderRadius),

@@ -175,4 +175,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get send_code => 'SEND CODE';
+
+  @override
+  String get english => 'English';
+
+  @override
+  String get arabic => 'Arabic';
+
+  @override
+  String get french => 'French';
+
+  @override
+  String get german => 'German';
+
+  @override
+  String get spanish => 'Spanish';
+
+  @override
+  String get italian => 'Italian';
 }

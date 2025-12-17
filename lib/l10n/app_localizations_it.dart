@@ -177,4 +177,22 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get send_code => 'INVIA CODICE';
+
+  @override
+  String get english => 'Inglese';
+
+  @override
+  String get arabic => 'Arabo';
+
+  @override
+  String get french => 'Francese';
+
+  @override
+  String get german => 'Tedesco';
+
+  @override
+  String get spanish => 'Spagnolo';
+
+  @override
+  String get italian => 'Italiano';
 }
