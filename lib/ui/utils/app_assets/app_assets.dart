@@ -9,5 +9,8 @@ class AppAssets {
   static const String background2 = "assets/images/background2.png";
   static const String  medicalCare  = "assets/images/medical_care .png";
   static const String  group7  = "assets/images/Group7.png";
+  static const String syrup= "assets/images/syrup.png";
+  static const String injections= "assets/images/injections.png";
+  static const String capsules= "assets/images/capsules.png";
 
 }

@@ -58,6 +58,13 @@
     "french": "الفرنسية",
     "german": "الألمانية",
     "spanish": "الإسبانية",
-     "italian": "الإيطالية"
+     "italian": "الإيطالية",
+     "medicine_name": "اسم الدواء",
+       "medicine_dosage": "جرعة الدواء",
+       "medicine_type": "نوع الدواء",
+       "capsules": "كبسولات",
+       "injections": "حقن",
+       "syrup": "شراب",
+       "add_new_medicine": "إضافة دواء جديد"
 
 }

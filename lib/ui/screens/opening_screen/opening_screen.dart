@@ -5,7 +5,7 @@ import 'package:medicine_app/ui/custom_widget/action_button/action_button.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
 import '../../custom_widget/base_screen/base_screen.dart';
-import '../chose_language/chose_language.dart';
+import '../chose_language_screen/chose_language_screen.dart';
 
 class OpeningScreen extends StatelessWidget {
   static const String routeName = "/";
@@ -48,14 +48,11 @@ class OpeningScreen extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 44),
               child: ActionButton(
                 onTap: () {
-                  Navigator.pushNamed(context, ChoseLanguage.routeName);
+                  Navigator.pushNamed(context, ChoseLanguageScreen.routeName);
                 },
-                text: Container(
-                  alignment: Alignment.center,
-                  child: Text(
-                    AppLocalizations.of(context)!.choose_language,
-                    style: AppStyles.semiBoldWhit20,
-                  ),
+                text: Text(
+                  AppLocalizations.of(context)!.choose_language,
+                  style: AppStyles.semiBoldWhit20,
                 ),
               ),
             ),

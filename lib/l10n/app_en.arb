@@ -57,6 +57,14 @@
   "french": "French",
   "german": "German",
   "spanish": "Spanish",
-  "italian": "Italian"
+  "italian": "Italian",
+   "medicine_name": "Medicine name",
+    "medicine_dosage": "Medicine dosage",
+    "medicine_type": "Medicine type",
+    "capsules": "Capsules",
+    "injections": "Injections",
+    "syrup": "Syrup",
+    "add_new_medicine": "Add new medicine"
+
 
 }

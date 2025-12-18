@@ -7,13 +7,11 @@ class ArrowBack extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsetsDirectional.only(top: 80, ),
-      child: IconButton(onPressed: (){
+    return
+      IconButton(onPressed: (){
         Navigator.pop(context);
       }, icon:
       Icon(Icons.arrow_back,color:AppColors.black,size: 32,),
-      ),
     );
   }
 }

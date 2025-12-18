@@ -459,6 +459,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Italian'**
   String get italian;
+
+  /// No description provided for @medicine_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Medicine name'**
+  String get medicine_name;
+
+  /// No description provided for @medicine_dosage.
+  ///
+  /// In en, this message translates to:
+  /// **'Medicine dosage'**
+  String get medicine_dosage;
+
+  /// No description provided for @medicine_type.
+  ///
+  /// In en, this message translates to:
+  /// **'Medicine type'**
+  String get medicine_type;
+
+  /// No description provided for @capsules.
+  ///
+  /// In en, this message translates to:
+  /// **'Capsules'**
+  String get capsules;
+
+  /// No description provided for @injections.
+  ///
+  /// In en, this message translates to:
+  /// **'Injections'**
+  String get injections;
+
+  /// No description provided for @syrup.
+  ///
+  /// In en, this message translates to:
+  /// **'Syrup'**
+  String get syrup;
+
+  /// No description provided for @add_new_medicine.
+  ///
+  /// In en, this message translates to:
+  /// **'Add new medicine'**
+  String get add_new_medicine;
 }
 
 class _AppLocalizationsDelegate

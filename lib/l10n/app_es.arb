@@ -59,5 +59,13 @@
     "french": "Francés",
     "german": "Alemán",
     "spanish": "Español",
-    "italian": "Italiano"
+    "italian": "Italiano",
+    "medicine_name": "Nombre del medicamento",
+      "medicine_dosage": "Dosis del medicamento",
+      "medicine_type": "Tipo de medicamento",
+      "capsules": "Cápsulas",
+      "injections": "Inyecciones",
+      "syrup": "Jarabe",
+      "add_new_medicine": "Agregar nuevo medicamento"
+
 }
