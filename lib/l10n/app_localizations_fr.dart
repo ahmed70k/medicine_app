@@ -197,4 +197,25 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get italian => 'Italien';
+
+  @override
+  String get medicine_name => 'Nom du médicament';
+
+  @override
+  String get medicine_dosage => 'Dosage du médicament';
+
+  @override
+  String get medicine_type => 'Type de médicament';
+
+  @override
+  String get capsules => 'Gélules';
+
+  @override
+  String get injections => 'Injections';
+
+  @override
+  String get syrup => 'Sirop';
+
+  @override
+  String get add_new_medicine => 'Ajouter un nouveau médicament';
 }

@@ -193,4 +193,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get italian => 'Italian';
+
+  @override
+  String get medicine_name => 'Medicine name';
+
+  @override
+  String get medicine_dosage => 'Medicine dosage';
+
+  @override
+  String get medicine_type => 'Medicine type';
+
+  @override
+  String get capsules => 'Capsules';
+
+  @override
+  String get injections => 'Injections';
+
+  @override
+  String get syrup => 'Syrup';
+
+  @override
+  String get add_new_medicine => 'Add new medicine';
 }

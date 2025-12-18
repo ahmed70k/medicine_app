@@ -191,4 +191,25 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get italian => 'الإيطالية';
+
+  @override
+  String get medicine_name => 'اسم الدواء';
+
+  @override
+  String get medicine_dosage => 'جرعة الدواء';
+
+  @override
+  String get medicine_type => 'نوع الدواء';
+
+  @override
+  String get capsules => 'كبسولات';
+
+  @override
+  String get injections => 'حقن';
+
+  @override
+  String get syrup => 'شراب';
+
+  @override
+  String get add_new_medicine => 'إضافة دواء جديد';
 }

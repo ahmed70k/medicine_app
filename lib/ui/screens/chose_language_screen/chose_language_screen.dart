@@ -3,20 +3,21 @@ import 'package:medicine_app/l10n/app_localizations.dart';
 import 'package:medicine_app/ui/custom_widget/action_button/action_button.dart';
 import 'package:medicine_app/ui/custom_widget/arrow_back/arrow_back.dart';
 import 'package:medicine_app/ui/custom_widget/base_screen/base_screen.dart';
-import 'package:medicine_app/ui/screens/chose_language/language_list.dart';
 import 'package:medicine_app/ui/screens/welcome_screen/welcome_screen.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
 
-class ChoseLanguage extends StatefulWidget {
+import 'language_list.dart';
+
+class ChoseLanguageScreen extends StatefulWidget {
   static const String routeName = "ChoseLanguage";
-  const ChoseLanguage({super.key});
+  const ChoseLanguageScreen({super.key});
 
   @override
-  State<ChoseLanguage> createState() => _ChoseLanguageState();
+  State<ChoseLanguageScreen> createState() => _ChoseLanguageState();
 }
 
-class _ChoseLanguageState extends State<ChoseLanguage> {
+class _ChoseLanguageState extends State<ChoseLanguageScreen> {
   @override
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;

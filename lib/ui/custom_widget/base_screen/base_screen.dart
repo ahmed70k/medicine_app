@@ -10,7 +10,7 @@ class BaseScreen extends StatelessWidget {
       appBar: appBar,
       body: Stack(
         children: [
-          Positioned.fill(child: image),
+          Positioned.fill(child: image,),
           child,
         ],
       ),
