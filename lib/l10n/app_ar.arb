@@ -65,6 +65,10 @@
        "capsules": "كبسولات",
        "injections": "حقن",
        "syrup": "شراب",
-       "add_new_medicine": "إضافة دواء جديد"
+       "add_new_medicine": "إضافة دواء جديد",
+         "received_description": "غيّر الجدول حسب النصائح",
+           "add_your_medication": "أضف دوائك"
+
+
 
 }

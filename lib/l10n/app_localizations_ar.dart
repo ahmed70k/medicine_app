@@ -212,4 +212,10 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get add_new_medicine => 'إضافة دواء جديد';
+
+  @override
+  String get received_description => 'غيّر الجدول حسب النصائح';
+
+  @override
+  String get add_your_medication => 'أضف دوائك';
 }

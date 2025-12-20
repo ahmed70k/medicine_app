@@ -4,6 +4,11 @@ class AppAssets {
   static const String hour= "assets/images/hour.svg";
   static const String logoScreens = "assets/images/logo_screens.svg";
   static const String arrowDown = "assets/images/arrow_down.svg";
+  static const String invite = "assets/images/invite.svg";
+  static const String progress = "assets/images/progress.svg";
+  static const String received = "assets/images/received.svg";
+  static const String schedule = "assets/images/schedule.svg";
+  static const String reminders = "assets/images/reminders.svg";
   /// png
   static const String appBackgroundImage = "assets/images/background-2.png";
   static const String background2 = "assets/images/background2.png";

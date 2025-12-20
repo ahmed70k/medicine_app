@@ -64,7 +64,11 @@
     "capsules": "Capsules",
     "injections": "Injections",
     "syrup": "Syrup",
-    "add_new_medicine": "Add new medicine"
+    "add_new_medicine": "Add new medicine",
+     "received_description": "Change the schedule as per the advices",
+       "add_your_medication": "Add your medication"
+
+
 
 
 }

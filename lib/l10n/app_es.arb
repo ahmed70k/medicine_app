@@ -66,6 +66,10 @@
       "capsules": "Cápsulas",
       "injections": "Inyecciones",
       "syrup": "Jarabe",
-      "add_new_medicine": "Agregar nuevo medicamento"
+      "add_new_medicine": "Agregar nuevo medicamento",
+        "received_description": "Cambia el horario según los consejos",
+          "add_your_medication": "Agrega tu medicamento"
+
+
 
 }

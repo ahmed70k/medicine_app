@@ -501,6 +501,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Add new medicine'**
   String get add_new_medicine;
+
+  /// No description provided for @received_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Change the schedule as per the advices'**
+  String get received_description;
+
+  /// No description provided for @add_your_medication.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your medication'**
+  String get add_your_medication;
 }
 
 class _AppLocalizationsDelegate

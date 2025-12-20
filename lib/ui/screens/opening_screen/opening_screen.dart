@@ -16,7 +16,7 @@ class OpeningScreen extends StatelessWidget {
     return BaseScreen(
       image: Image.asset(AppAssets.appBackgroundImage, fit: BoxFit.fill),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 32),
+        padding: const EdgeInsets.all(16),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,

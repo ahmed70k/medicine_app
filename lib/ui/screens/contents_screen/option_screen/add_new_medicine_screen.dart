@@ -8,8 +8,8 @@ import 'package:medicine_app/ui/screens/contents_screen/contents_screen.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
 
-import '../../custom_widget/medication_type/medication_type.dart';
-import '../../utils/app_colors/app_colors.dart';
+import '../../../custom_widget/medication_type/medication_type.dart';
+import '../../../utils/app_colors/app_colors.dart';
 
 class AddNewMedicineScreen extends StatelessWidget {
   static const String routeName = "AddNewMedicine";
@@ -29,7 +29,9 @@ class AddNewMedicineScreen extends StatelessWidget {
             SizedBox(height: height * 0.5 / 4),
             Row(
               children: [
-                ArrowBack(),
+                ArrowBack(onPressed: (){
+                  Navigator.pop(context);
+                },),
                 SizedBox(width: width * 0.03),
                 Center(
                   child: Text(

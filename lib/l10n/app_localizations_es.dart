@@ -219,4 +219,10 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get add_new_medicine => 'Agregar nuevo medicamento';
+
+  @override
+  String get received_description => 'Cambia el horario según los consejos';
+
+  @override
+  String get add_your_medication => 'Agrega tu medicamento';
 }
