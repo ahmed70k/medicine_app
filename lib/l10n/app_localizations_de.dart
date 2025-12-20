@@ -217,4 +217,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get add_new_medicine => 'Neues Medikament hinzufügen';
+
+  @override
+  String get received_description =>
+      'Ändern Sie den Zeitplan entsprechend den Ratschlägen';
+
+  @override
+  String get add_your_medication => 'Fügen Sie Ihre Medikamente hinzu';
 }

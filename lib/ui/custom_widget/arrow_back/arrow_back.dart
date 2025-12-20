@@ -3,15 +3,14 @@ import 'package:flutter/material.dart';
 import '../../utils/app_colors/app_colors.dart';
 
 class ArrowBack extends StatelessWidget {
-  const ArrowBack({super.key});
+  final VoidCallback onPressed;
+  const ArrowBack({super.key,required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
     return
-      IconButton(onPressed: (){
-        Navigator.pop(context);
-      }, icon:
-      Icon(Icons.arrow_back,color:AppColors.black,size: 32,),
+      IconButton(onPressed: onPressed,
+        icon: Icon(Icons.arrow_back,color:AppColors.black,size: 32,),
     );
   }
 }

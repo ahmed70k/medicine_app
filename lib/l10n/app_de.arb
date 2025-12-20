@@ -65,6 +65,10 @@
       "capsules": "Kapseln",
       "injections": "Injektionen",
       "syrup": "Sirup",
-      "add_new_medicine": "Neues Medikament hinzufügen"
+      "add_new_medicine": "Neues Medikament hinzufügen",
+        "received_description": "Ändern Sie den Zeitplan entsprechend den Ratschlägen",
+          "add_your_medication": "Fügen Sie Ihre Medikamente hinzu"
+
+
 
 }

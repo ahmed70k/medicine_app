@@ -65,6 +65,9 @@
       "capsules": "Capsule",
       "injections": "Iniezioni",
       "syrup": "Sciroppo",
-      "add_new_medicine": "Aggiungi nuovo medicinale"
+      "add_new_medicine": "Aggiungi nuovo medicinale",
+      "received_description": "Modifica il programma secondo i consigli",
+        "add_your_medication": "Aggiungi il tuo medicinale"
+
 
 }

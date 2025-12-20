@@ -214,4 +214,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get add_new_medicine => 'Add new medicine';
+
+  @override
+  String get received_description => 'Change the schedule as per the advices';
+
+  @override
+  String get add_your_medication => 'Add your medication';
 }

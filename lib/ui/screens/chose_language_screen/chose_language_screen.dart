@@ -27,7 +27,10 @@ class _ChoseLanguageState extends State<ChoseLanguageScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ArrowBack(),
+          SizedBox(height: height * 0.1,),
+          ArrowBack(onPressed: (){
+            Navigator.pop(context);
+          },),
           LanguageList(),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 82),

@@ -66,6 +66,9 @@
       "capsules": "Gélules",
       "injections": "Injections",
       "syrup": "Sirop",
-      "add_new_medicine": "Ajouter un nouveau médicament"
+      "add_new_medicine": "Ajouter un nouveau médicament",
+       "received_description": "Modifiez le planning selon les conseils",
+         "add_your_medication": "Ajoutez votre médicament"
+
 
 }
