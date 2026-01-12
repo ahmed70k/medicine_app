@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:medicine_app/l10n/app_localizations.dart';
-import 'package:medicine_app/ui/custom_widget/action_button/action_button.dart';
-import 'package:medicine_app/ui/custom_widget/arrow_back/arrow_back.dart';
-import 'package:medicine_app/ui/custom_widget/base_screen/base_screen.dart';
 import 'package:medicine_app/ui/screens/authentication/login_screen/login_screen.dart';
 import 'package:medicine_app/ui/screens/authentication/signup_screen/signup_screen.dart';
 import 'package:medicine_app/ui/screens/opening_screen/opening_screen.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
+
+import '../../custom_widgets/action_button/action_button.dart';
+import '../../custom_widgets/arrow_back/arrow_back.dart';
+import '../../custom_widgets/base_screen/base_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   static const String routeName = "WelcomeScreen";
@@ -16,7 +17,6 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
-    Widget image = Image.asset(AppAssets.appBackgroundImage, fit: BoxFit.fill);
     return BaseScreen(
       image: Image.asset(AppAssets.appBackgroundImage, fit: BoxFit.fill),
       child: Padding(
@@ -26,7 +26,9 @@ class WelcomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(height: height *0.1,),
-            ArrowBack(onPressed: (){
+            ArrowBack(
+              titleScreen: "",
+              onPressed: (){
               Navigator.pushNamed(context,OpeningScreen.routeName);
 
             },),

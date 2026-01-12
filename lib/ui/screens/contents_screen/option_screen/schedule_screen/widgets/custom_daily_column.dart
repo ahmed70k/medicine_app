@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
-import '../../utils/app_colors/app_colors.dart';
+import '../../../../../utils/app_colors/app_colors.dart';
 
 class CustomDailyColumn extends StatelessWidget {
   final String textDose;

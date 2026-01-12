@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:medicine_app/l10n/app_localizations.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/add_new_medicine_screen.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/invite_screen.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/progress_screen.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/received_advices_screen.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/reminders_screen.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/schedule_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/add_new_medicine/add_new_medicine_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/invite_screen/invite_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/progress_screen/progress_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/received_screen/received_advices_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/reminders_screen/reminders_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/schedule_screen/schedule_screen.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 
 class MedicineOptionModelData {
@@ -19,16 +19,6 @@ class MedicineOptionModelData {
     required this.screenType,
     required this.imageIcon,
   });
-  // static const List<Widget> optionScreen = [
-  //   ProgressScreen(),
-  //   RemindersScreen(),
-  //   ReceivedAdvicesScreen(),
-  //   MissedMedicinesScreen(),
-  //   InviteScreen(),
-  //   ScheduleScreen(),
-  //   AddNewMedicineScreen(),
-  //
-  // ];
   /// i ned to list from MedicineOptionData
   static List<MedicineOptionModelData> medicineOptionData(BuildContext context) {
     return [
