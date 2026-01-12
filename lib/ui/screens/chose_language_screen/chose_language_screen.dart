@@ -19,7 +19,6 @@ class ChoseLanguageScreen extends StatefulWidget {
 class _ChoseLanguageState extends State<ChoseLanguageScreen> {
   @override
   Widget build(BuildContext context) {
-    var width = MediaQuery.of(context).size.width;
     var height = MediaQuery.of(context).size.height;
     return BaseScreen(
       image: Image.asset(AppAssets.appBackgroundImage, fit: BoxFit.fill),

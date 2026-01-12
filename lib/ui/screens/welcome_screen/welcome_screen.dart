@@ -17,7 +17,6 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
-    Widget image = Image.asset(AppAssets.appBackgroundImage, fit: BoxFit.fill);
     return BaseScreen(
       image: Image.asset(AppAssets.appBackgroundImage, fit: BoxFit.fill),
       child: Padding(

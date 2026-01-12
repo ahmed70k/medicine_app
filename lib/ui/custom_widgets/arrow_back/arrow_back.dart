@@ -5,8 +5,8 @@ import '../../utils/app_colors/app_colors.dart';
 
 class ArrowBack extends StatelessWidget {
   final VoidCallback onPressed;
-  String? titleScreen;
-  ArrowBack({super.key, required this.onPressed,this.titleScreen});
+  final String? titleScreen;
+  const ArrowBack({super.key, required this.onPressed,this.titleScreen});
 
   @override
   Widget build(BuildContext context) {

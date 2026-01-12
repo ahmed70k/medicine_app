@@ -4,8 +4,8 @@ import '../../../../../utils/app_colors/app_colors.dart';
 import '../../../../../utils/app_styles/app_styles.dart';
 
 class ReminderTimeList extends StatelessWidget {
-   List <String> timeList;
-  ReminderTimeList({super.key,required this.timeList});
+  final List <String> timeList;
+  const ReminderTimeList({super.key,required this.timeList});
 
   @override
   Widget build(BuildContext context) {

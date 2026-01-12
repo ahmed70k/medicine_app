@@ -5,10 +5,10 @@ import '../../../../../utils/app_colors/app_colors.dart';
 import '../../../../../utils/app_styles/app_styles.dart';
 
 class CustomMonthList extends StatefulWidget {
-  List<String> monthList;
+  final List<String> monthList;
   final EasyInfiniteDateTimelineController easyInfiniteDateTimelineController;
   final DateTime selectedMonth;
-   CustomMonthList({
+   const CustomMonthList({
     super.key,
     required this.easyInfiniteDateTimelineController,
     required this.selectedMonth,
