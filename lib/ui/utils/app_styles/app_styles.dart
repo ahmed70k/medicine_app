@@ -85,10 +85,18 @@ class AppStyles {
         fontSize: 14,
         color: AppColors.black
     );
+   static final TextStyle  regularBlack15 = GoogleFonts.poppins(
+       fontSize: 15,
+       color: AppColors.black
+   );
    static final TextStyle  regularPrimary14 = GoogleFonts.poppins(
         fontSize: 14,
         color: AppColors.primary
     );
+   static final TextStyle  regularSecondary15 = GoogleFonts.poppins(
+       fontSize: 15,
+       color: AppColors.secondary
+   );
    static final TextStyle  regularSecondary17 = GoogleFonts.roboto(
         fontSize: 17,
         color: AppColors.secondary
@@ -118,6 +126,10 @@ color: AppColors.secondary
     fontSize: 14,
     color: AppColors.secondary
 );
+   static final TextStyle  mediumSecondary13 = GoogleFonts.poppins(
+       fontSize: 13,
+       color: AppColors.secondary
+   );
    static final TextStyle  mediumBlack16 = GoogleFonts.poppins(
     fontSize: 16,
     color: AppColors.black

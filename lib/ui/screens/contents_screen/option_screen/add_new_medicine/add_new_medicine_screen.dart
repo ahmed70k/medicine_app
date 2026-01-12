@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:medicine_app/l10n/app_localizations.dart';
-import 'package:medicine_app/ui/custom_widget/action_button/action_button.dart';
-import 'package:medicine_app/ui/custom_widget/arrow_back/arrow_back.dart';
-import 'package:medicine_app/ui/custom_widget/base_screen/base_screen.dart';
-import 'package:medicine_app/ui/custom_widget/text_form/text_form.dart';
 import 'package:medicine_app/ui/screens/contents_screen/contents_screen.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
-
-import '../../../custom_widget/medication_type/medication_type.dart';
-import '../../../utils/app_colors/app_colors.dart';
+import '../../../../custom_widgets/action_button/action_button.dart';
+import '../../../../custom_widgets/arrow_back/arrow_back.dart';
+import '../../../../custom_widgets/base_screen/base_screen.dart';
+import '../../../../custom_widgets/text_form/text_form.dart';
+import 'widgets/medication_type.dart';
+import '../../../../utils/app_colors/app_colors.dart';
 
 class AddNewMedicineScreen extends StatelessWidget {
   static const String routeName = "AddNewMedicine";
@@ -27,20 +26,11 @@ class AddNewMedicineScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             SizedBox(height: height * 0.5 / 4),
-            Row(
-              children: [
-                ArrowBack(onPressed: (){
+                ArrowBack(
+                  titleScreen:AppLocalizations.of(context)!.add_new_medicine,
+                  onPressed: (){
                   Navigator.pop(context);
                 },),
-                SizedBox(width: width * 0.03),
-                Center(
-                  child: Text(
-                    AppLocalizations.of(context)!.add_new_medicine,
-                    style: AppStyles.semiboldBlack28,
-                  ),
-                ),
-              ],
-            ),
             SizedBox(height: height * 0.04),
             TextForm(
               prefixIcon: Icon(Icons.edit),

@@ -9,6 +9,9 @@ class AppAssets {
   static const String received = "assets/images/received.svg";
   static const String schedule = "assets/images/schedule.svg";
   static const String reminders = "assets/images/reminders.svg";
+  static const String taken = "assets/images/taken.svg";
+  static const String takeIt = "assets/images/take_it.svg";
+  static const String cab11 = "assets/images/11.svg";
   /// png
   static const String appBackgroundImage = "assets/images/background-2.png";
   static const String background2 = "assets/images/background2.png";

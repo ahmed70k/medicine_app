@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:medicine_app/l10n/app_localizations.dart';
-import 'package:medicine_app/ui/custom_widget/action_button/action_button.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
-import '../../custom_widget/base_screen/base_screen.dart';
+import '../../custom_widgets/action_button/action_button.dart';
+import '../../custom_widgets/base_screen/base_screen.dart';
 import '../chose_language_screen/chose_language_screen.dart';
 
 class OpeningScreen extends StatelessWidget {

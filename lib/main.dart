@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:medicine_app/providers/language_provider/language_provider.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/add_new_medicine_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/add_new_medicine/add_new_medicine_screen.dart';
 import 'package:medicine_app/ui/screens/authentication/login_screen/login_screen.dart';
 import 'package:medicine_app/ui/screens/authentication/signup_screen/signup_screen.dart';
 import 'package:medicine_app/ui/screens/chose_language_screen/chose_language_screen.dart';
 import 'package:medicine_app/ui/screens/contents_screen/contents_screen.dart';
-import 'package:medicine_app/ui/screens/contents_screen/option_screen/schedule_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/reminders_screen/reminders_screen.dart';
+import 'package:medicine_app/ui/screens/contents_screen/option_screen/schedule_screen/schedule_screen.dart';
 import 'package:medicine_app/ui/screens/opening_screen/opening_screen.dart';
 import 'package:medicine_app/ui/screens/welcome_screen/welcome_screen.dart';
 import 'package:provider/provider.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       debugShowCheckedModeBanner: false,
-      initialRoute: ScheduleScreen.routeName,
+      initialRoute:RemindersScreen.routeName,
       routes: {
         OpeningScreen.routeName:(_)=>OpeningScreen(),
         WelcomeScreen.routeName:(_)=> WelcomeScreen(),
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         AddNewMedicineScreen.routeName:(_)=>AddNewMedicineScreen(),
         ContentsScreen.routeName:(_)=>ContentsScreen(),
         ScheduleScreen.routeName:(_)=>ScheduleScreen(),
+        RemindersScreen.routeName:(_)=>RemindersScreen(),
       },
     );
   }

@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:medicine_app/data_class/medicine_option_deta/medicine_option_data.dart';
-import 'package:medicine_app/ui/custom_widget/base_screen/base_screen.dart';
 import 'package:medicine_app/ui/screens/welcome_screen/welcome_screen.dart';
 import 'package:medicine_app/ui/utils/app_assets/app_assets.dart';
 import 'package:medicine_app/ui/utils/app_colors/app_colors.dart';
 import 'package:medicine_app/ui/utils/app_styles/app_styles.dart';
+
+import '../../custom_widgets/base_screen/base_screen.dart';
 
 class ContentsScreen extends StatelessWidget {
   static const String routeName = "contents_screen";
